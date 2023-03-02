@@ -1,0 +1,19 @@
+.header{
+    background-color: $header-color;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    &_img{
+        width: 20%;
+    }
+    &_nav-ul{
+        display: block;
+        gap: 30%;
+        font-size: 30px;
+        margin-top: 30%;
+        padding-left: 25%;
+        &-link:hover{
+          color: $hover;
+        }
+    }
+}
