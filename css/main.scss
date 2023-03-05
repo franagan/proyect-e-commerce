@@ -2,7 +2,13 @@
 @import "var";
 @import "header";
 @import "section1";
+@import "section2";
+@import "section3";
+@import "footer";
+@import "login";
 
-*{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+.container-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

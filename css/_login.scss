@@ -1,0 +1,21 @@
+.header_registry{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 193, 193);
+    max-width: 100%;
+    height: auto;
+}
+.registry{
+    font-size: xx-large;
+}
+.formula{
+    width: 100%;
+    height: 50vh;
+    padding-top: 230px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    &_fieldset{
+        justify-content: center;
+    }
+}
